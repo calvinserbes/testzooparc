@@ -2,6 +2,7 @@ $yellowbeauval: #DEAF00;
 $topinfobackground: #1D485C;
 
 *{
+    box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
@@ -15,8 +16,10 @@ $topinfobackground: #1D485C;
     text-align: center;
     p{
         color: #fff;
-        font-size: .8em;
-         padding: 10px 10px;
+        font-size: .740rem;
+        font-weight: 300;
+        padding: 0.625rem 0;
+        width: 60rem;
      }
          a{
              color: $yellowbeauval;
