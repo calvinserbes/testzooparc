@@ -1,3 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+.topinfo {
+  background: #1D485C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.topinfo p {
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 300;
+  padding: 0.625rem 0;
+  width: 60rem;
+}
+.topinfo a {
+  color: #DEAF00;
+}
+
+@media screen and (max-width: 1000px) {
+  .topinfo {
+    padding: 0px 11px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
