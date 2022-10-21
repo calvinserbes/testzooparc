@@ -25,3 +25,10 @@ $topinfobackground: #1D485C;
              color: $yellowbeauval;
     }
 }  
+
+@media screen and (max-width: 1000px){
+    .topinfo{
+        padding: 0px 11px;
+    }
+    
+}
