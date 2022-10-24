@@ -3,6 +3,7 @@
   font-family: "Mulish", sans-serif;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 .topinfo {
@@ -19,7 +20,7 @@
   padding: 0.825rem 0;
   width: 74rem;
 }
-.topinfo a {
+.topinfo strong, .topinfo a {
   color: #DEAF00;
 }
 
@@ -98,6 +99,14 @@ hr {
 .main {
   background: linear-gradient(#183933, #092330);
   height: 150vh;
+}
+
+.maintitle {
+  font-family: "Neucha", cursive;
+  font-size: 50px;
+  font-weight: 100;
+  padding-top: 90px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

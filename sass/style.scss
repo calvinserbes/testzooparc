@@ -8,6 +8,7 @@ $topinfobackground: #1D485C;
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 // ====== top info ====== //
@@ -25,8 +26,8 @@ $topinfobackground: #1D485C;
         padding: 0.825rem 0;
         width: 74rem;
      }
-         a{
-             color: $yellowbeauval;
+         strong, a{
+            color: $yellowbeauval;
     }
 }  
 
@@ -113,4 +114,12 @@ hr{
 .main{
     background: linear-gradient($main, $mainbottom);
     height: 150vh;
+}
+
+.maintitle{
+    font-family: 'Neucha', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 90px;
+    text-align: center;
 }
