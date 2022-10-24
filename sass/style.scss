@@ -10,6 +10,8 @@ $topinfobackground: #1D485C;
     padding: 0;
 }
 
+// ====== top info ====== //
+
 .topinfo {
     background: $topinfobackground;
     display: flex;
@@ -18,10 +20,10 @@ $topinfobackground: #1D485C;
     text-align: center;
     p{
         color: #fff;
-        font-size: .740rem;
+        font-size: .940rem;
         font-weight: 300;
-        padding: 0.625rem 0;
-        width: 60rem;
+        padding: 0.825rem 0;
+        width: 74rem;
      }
          a{
              color: $yellowbeauval;
@@ -45,25 +47,22 @@ $topinfobackground: #1D485C;
 
 .topnav{
     display: flex;
-    align-items: center;
-    justify-content: end;
 }
 
 .logo{
-    display: inline-block;
-    margin: 20px 0px 0 140px;
+    margin: 30px 50px 0 200px;
 }
 
 .nav{
-    margin: 20px auto 0 50px;
+    margin: 30px auto 0 50px;
     align-items: center;
+    margin-right: 180px;
     ul{
         display: flex;
+        justify-content: flex-end;
         li{
-            width: 100px;
-            padding: 0px 15px;
-            margin: 0;
             list-style-type: none;
+            padding-right: 25px;
             :hover{
                 color: $yellowbeauval;
                 transition: 0.5s;
@@ -74,16 +73,17 @@ $topinfobackground: #1D485C;
                 position: relative;
                 display: block;
                 font-weight: 700;
-                font-size: .850rem;
+                font-size: 16px;
                 text-decoration: none;
+                width: 80%;
             }
         }
     }
 }
 
 .billeterie{
+    margin-left: auto;
     align-items: center;
-    align-content: center;
     padding: 0;
     margin: 0;
     :hover{
@@ -105,7 +105,7 @@ hr{
     border: none;
     height: 1px;
     background: #fff;
-    max-width: 55.9425rem;
+    max-width: 67.925rem;
 }
 
 // ========== fin top nav ========== //
